@@ -1,0 +1,17 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "deploy": "./deploy.sh",
+    "test": "echo 'All files are in place!'"
+  },
+  "keywords": [],
+  "author": "Brandon Hardatt",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

@@ -1,31 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brandon's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title -->
+  <title>Brandon Hardatt | Portfolio</title>
+
+  <!-- Google Fonts (Poppins example) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Brandon</h1>
-            <p>Full-Stack Developer</p>
-        </header>
+  <header id="home">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-        <main>
-            <section id="projects">
-                <h2>Projects</h2>
-                <!-- JavaScript will inject projects here -->
-            </section>
+    <!-- Hero Section -->
+    <div class="hero">
+      <h1>Brandon Hardatt</h1>
+      <p>Software Developer | Full-Stack Developer | Machine Learning Engineer</p>
+    </div>
+  </header>
 
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>Email: yourname@example.com</p>
-            </section>
-        </main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate Software Developer with a Bachelor of Science in Computer
+      Science from Memorial University of Newfoundland. I have experience in
+      various programming languages including C/C++, C#, Java, Python, and web
+      technologies like React, TypeScript, and WebRTC. I enjoy building responsive
+      and efficient applications while focusing on performance and user
+      experience.
+    </p>
+    <p>
+      Throughout my career, I have worked on commercial projects, led teams, and
+      built software solutions for rehabilitation, machine learning, and real-time
+      communication systems.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Technologies</h2>
+
+    <div class="skills-category">
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>C#</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>SQL</li>
+        <li>Swift</li>
+      </ul>
     </div>
 
-    <script src="app.js"></script>
+    <div class="skills-category">
+      <h3>Frontend Technologies & Frameworks</h3>
+      <ul>
+        <li>React</li>
+        <li>React Native</li>
+        <li>Next.js</li>
+        <li>Tailwind CSS</li>
+        <li>Three.js</li>
+        <li>Electron</li>
+        <li>WebRTC</li>
+      </ul>
+    </div>
+
+    <div class="skills-category">
+      <h3>Backend Technologies & Frameworks</h3>
+      <ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Django</li>
+        <li>Flask</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <!-- Projects are injected by app.js -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:bhardattwork@gmail.com">bhardattwork@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/BrandonHardatt">github.com/BrandonHardatt</a></p>
+    <p>
+      LinkedIn:
+      <a href="https://www.linkedin.com/in/brandon-hardatt-7a4877221/"
+        >linkedin.com/in/brandon-hardatt</a
+      >
+    </p>
+  </section>
+
+  <!-- Main JS -->
+  <script src="app.js"></script>
 </body>
 </html>
