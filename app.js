@@ -1,7 +1,10 @@
 const projects = [
   { name: "Project 1", description: "A cool project about something interesting." },
   { name: "Project 2", description: "Another project showcasing your skills." },
-  { name: "Project 3", description: "A side project that you had fun building." }
+  { name: "Project 3", description: "A side project that you had fun building." },
+  { name: "Project 1", description: "A cool project about something interesting." },
+  { name: "Project 2", description: "Another project showcasing your skills." },
+  { name: "Project 3", description: "A side project that you had fun building." },
 ];
 
 const projectsContainer = document.getElementById('projects');
