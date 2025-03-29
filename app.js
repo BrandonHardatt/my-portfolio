@@ -8,26 +8,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Dynamic Project Display
+// Example: You can rename or replace these with your real projects
 const projects = [
   {
-      title: "Health and Rehab Research App",
-      description: "Led a team developing a mobile app using React Native, Python, and Scikit-learn for full body pose detection and rehabilitation exercises.",
+      title: "Health & Rehab Research App",
+      description: "Led a team to develop a mobile AI rehab solution using React Native, Python, and Scikit-learn for real-time pose detection.",
       image: "images/rehab_app.gif"
   },
   {
-      title: "VoIP/WebRTC Communication System",
-      description: "Built real-time communication features using WebRTC for audio calls. Implemented with React Remix and React Electron using TypeScript.",
+      title: "Real-Time Voice Communication",
+      description: "Implemented WebRTC for a React Remix application, enabling serverless audio calls with TypeScript and AWS.",
       image: "images/webrtc_app.png"
   },
   {
-      title: "E-commerce Store",
-      description: "Designed a mock e-commerce platform with a fully functional shopping cart and dynamic UI.",
-      image: "images/store.jpg"
+      title: "NL Bus Tours Booking System",
+      description: "Built a TypeScript React solution for tour bookings, with a PostgreSQL backend for reliable data management.",
+      image: "images/tours.jpg"
   },
   {
       title: "Weather App",
-      description: "Developed a weather application that fetches real-time data using a public API and displays interactive charts.",
+      description: "Developed a dynamic React app that fetches real-time weather data and visualizes it with interactive charts.",
       image: "images/weather.jpg"
   }
 ];

@@ -5,9 +5,12 @@
   box-sizing: border-box;
 }
 
+#about p {
+  margin-bottom: 1.2rem; /* Adjust value as needed */
+}
+
 /* Dark Theme Styling */
 body {
-  /* Updated to use Poppins or fallback */
   font-family: 'Poppins', sans-serif;
   background-color: #121212;
   color: #e0e0e0;
@@ -130,7 +133,7 @@ nav ul li a:hover {
   color: #ffffff;
 }
 
-/* Project container */
+/* Project Container */
 .project {
   background: #1e1e1e;
   border: 1px solid #2e2e2e;
