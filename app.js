@@ -8,26 +8,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Example: You can rename or replace these with your real projects
+// Updated Projects
 const projects = [
+  {
+      title: "NL Bus Tours Booking System",
+      description: "Developed a TypeScript React solution for tour bookings, using a PostgreSQL backend and AWS Free Tier services to store data and generate email receipts.",
+      image: "images/tours.jpg"
+  },
+  {
+      title: "Real-Time Voice Communication (SongFlow Inc.)",
+      description: "Implemented a serverless real-time voice feature in a React Remix application using TypeScript and WebRTC – enabling in-browser audio calls.",
+      image: "images/webrtc_app.png"
+  },
   {
       title: "Health & Rehab Research App",
       description: "Led a team to develop a mobile AI rehab solution using React Native, Python, and Scikit-learn for real-time pose detection.",
       image: "images/rehab_app.gif"
   },
   {
-      title: "Real-Time Voice Communication",
-      description: "Implemented WebRTC for a React Remix application, enabling serverless audio calls with TypeScript and AWS.",
-      image: "images/webrtc_app.png"
-  },
-  {
-      title: "NL Bus Tours Booking System",
-      description: "Built a TypeScript React solution for tour bookings, with a PostgreSQL backend for reliable data management.",
-      image: "images/tours.jpg"
-  },
-  {
-      title: "Weather App",
-      description: "Developed a dynamic React app that fetches real-time weather data and visualizes it with interactive charts.",
+      title: "Weather App (Side Project)",
+      description: "A dynamic React app fetching real-time weather data from public APIs and visualizing it with interactive charts.",
       image: "images/weather.jpg"
   }
 ];

@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 
+/* Extra spacing for paragraphs in About section */
 #about p {
-  margin-bottom: 1.2rem; /* Adjust value as needed */
+  margin-bottom: 1.2rem; /* Adjust as needed */
 }
 
 /* Dark Theme Styling */
@@ -40,18 +41,32 @@ nav ul li a:hover {
   color: #121212;
 }
 
-/* Hero Section */
+/* Hero Section: same width as paragraphs + background image */
 .hero {
-  text-align: center;
-  padding: 140px 20px;
-  /* Example gradient background for hero */
-  background: linear-gradient(135deg, #1e1e1e 0%, #2c2c2c 100%);
+  /* Match #about's width and center it */
+  max-width: 1200px;
+  margin: 40px auto;   /* centers horizontally */
+  padding: 40px 20px;  /* padding inside the hero for text spacing */
+
+  position: relative;
+  min-height: 400px; /* ensure there's enough vertical space */
+  
+  /* Background image with overlay for readability (update filename if needed) */
+  background:
+    linear-gradient(
+      135deg,
+      rgba(30,30,30,0.5),
+      rgba(44,44,44,0.5)
+    ),
+    url("images/image.jpg") center/cover no-repeat;
+  
   color: #f2f2f2;
+  text-align: center;
   transition: background 0.3s ease-in-out;
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
