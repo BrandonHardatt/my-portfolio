@@ -10,11 +10,13 @@
   margin-bottom: 1.2rem; /* Adjust as needed */
 }
 
-/* Dark Theme Styling */
+/* Lighter Dark Theme Styling */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #121212;
-  color: #e0e0e0;
+  /* Lighten background from #121212 to something a bit brighter, e.g. #1f1f1f */
+  background-color: #1f1f1f;
+  /* Use a slightly brighter text color */
+  color: #ededed; 
   line-height: 1.6;
 }
 
@@ -23,13 +25,13 @@ nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  background: #1e1e1e;
+  background: #292929; /* Slightly lighter than #1e1e1e */
   padding: 10px;
   border-bottom: 1px solid #333;
 }
 
 nav ul li a {
-  color: #b3b3b3;
+  color: #c3c3c3;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 4px;
@@ -41,25 +43,21 @@ nav ul li a:hover {
   color: #121212;
 }
 
-/* Hero Section: same width as paragraphs + background image */
+/* Hero Section */
 .hero {
-  /* Match #about's width and center it */
   max-width: 1200px;
-  margin: 40px auto;   /* centers horizontally */
-  padding: 40px 20px;  /* padding inside the hero for text spacing */
-
+  margin: 40px auto;
+  padding: 40px 20px;
   position: relative;
-  min-height: 400px; /* ensure there's enough vertical space */
-  
-  /* Background image with overlay for readability (update filename if needed) */
+  min-height: 400px;
+  /* Lighten the overlay slightly for better icon contrast */
   background:
     linear-gradient(
       135deg,
-      rgba(30,30,30,0.5),
-      rgba(44,44,44,0.5)
+      rgba(30,30,30,0.4),
+      rgba(44,44,44,0.4)
     ),
-    url("images/image.jpg") center/cover no-repeat;
-  
+    url("images/hero.jpg") center/cover no-repeat;
   color: #f2f2f2;
   text-align: center;
   transition: background 0.3s ease-in-out;
@@ -72,7 +70,7 @@ nav ul li a:hover {
 
 .hero p {
   font-size: 1.2rem;
-  color: #ccc;
+  color: #ddd;
 }
 
 /* About Section */
@@ -92,7 +90,7 @@ nav ul li a:hover {
 #skills {
   margin-top: 40px;
   padding: 40px 20px;
-  background-color: #1e1e1e;
+  background-color: #282828; /* Slightly lighter than before */
   border-radius: 8px;
   max-width: 1200px;
   margin: 40px auto;
@@ -113,7 +111,7 @@ nav ul li a:hover {
   color: #ffffff;
   margin-bottom: 10px;
   padding-bottom: 6px;
-  border-bottom: 2px solid #00adb5; /* Accent underline */
+  border-bottom: 2px solid #00adb5;
 }
 
 .skills-category ul {
@@ -126,7 +124,7 @@ nav ul li a:hover {
 
 .skills-category ul li {
   padding: 5px 0;
-  color: #b3b3b3;
+  color: #cccccc;
   transition: color 0.3s;
 }
 
@@ -150,8 +148,8 @@ nav ul li a:hover {
 
 /* Project Container */
 .project {
-  background: #1e1e1e;
-  border: 1px solid #2e2e2e;
+  background: #292929; 
+  border: 1px solid #3e3e3e;
   border-radius: 8px;
   margin: 20px 0;
   padding: 20px;
@@ -179,16 +177,62 @@ nav ul li a:hover {
 }
 
 .project p {
-  color: #b3b3b3;
+  color: #cccccc;
   line-height: 1.4;
   font-size: 1rem;
+}
+
+/* Remove bullet points and display Key Features in one row, wrapping as needed */
+.project ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  /* Make list items sit side by side in a row */
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  gap: 10px;       /* Spacing between items */
+  justify-content: center;
+}
+
+/* Collapsible Section */
+.project .details {
+  display: none;
+  margin-top: 10px;
+  color: #cccccc;
+  text-align: left;
+}
+
+.project .details p {
+  margin-bottom: 0.8rem;
+}
+
+/* Button container below the project description */
+.project .button-container {
+  margin-top: 10px;
+}
+
+/* Show More / Show Less button */
+.more-btn {
+  background-color: #00adb5;
+  color: #121212;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.more-btn:hover {
+  background-color: #00cbd5;
 }
 
 /* Contact Section */
 #contact {
   padding: 40px 20px;
   text-align: center;
-  background: #1e1e1e;
+  background: #282828;
   margin-top: 40px;
 }
 
@@ -200,7 +244,7 @@ nav ul li a:hover {
 
 #contact p {
   margin-bottom: 10px;
-  color: #b3b3b3;
+  color: #cccccc;
 }
 
 #contact a {

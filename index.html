@@ -13,7 +13,20 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
     rel="stylesheet"
   />
-  
+
+  <!-- Devicon for technology icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css"
+  >
+
+  <!-- Font Awesome for fallback icons (e.g., check-circle) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    referrerpolicy="no-referrer"
+  />
+
   <!-- Main CSS -->
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -70,40 +83,45 @@
     <div class="skills-category">
       <h3>Programming Languages</h3>
       <ul>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>Python</li>
-        <li>Java</li>
-        <li>C</li>
-        <li>C++</li>
-        <li>C#</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>SQL</li>
-        <li>Swift</li>
+        <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+        <li><i class="devicon-typescript-plain colored"></i> TypeScript</li>
+        <li><i class="devicon-python-plain colored"></i> Python</li>
+        <li><i class="devicon-java-plain colored"></i> Java</li>
+        <li><i class="devicon-c-plain colored"></i> C</li>
+        <li><i class="devicon-cplusplus-plain colored"></i> C++</li>
+        <li><i class="devicon-csharp-plain colored"></i> C#</li>
+        <li><i class="devicon-html5-plain colored"></i> HTML5</li>
+        <li><i class="devicon-css3-plain colored"></i> CSS3</li>
+        <!-- No universal "SQL" icon; let's use the MySQL icon as a placeholder -->
+        <li><i class="devicon-mysql-plain colored"></i> SQL</li>
+        <li><i class="devicon-swift-plain colored"></i> Swift</li>
       </ul>
     </div>
 
     <div class="skills-category">
       <h3>Frontend Technologies & Frameworks</h3>
       <ul>
-        <li>React</li>
-        <li>React Native</li>
-        <li>Next.js</li>
-        <li>Tailwind CSS</li>
-        <li>Three.js</li>
-        <li>Electron</li>
-        <li>WebRTC</li>
+        <li><i class="devicon-react-original colored"></i> React</li>
+        <!-- For React Native, there's no separate devicon, so use React icon or fallback -->
+        <li><i class="devicon-react-original colored"></i> React Native</li>
+        <!-- Next.js has an icon in devicon 2.15.1: devicon-nextjs-original or devicon-nextjs-line -->
+        <li><i class="devicon-nextjs-original colored"></i> Next.js</li>
+        <li><i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS</li>
+        <li><i class="devicon-threejs-original colored"></i> Three.js</li>
+        <li><i class="devicon-electron-original colored"></i> Electron</li>
+        <!-- WebRTC doesn't have a devicon icon, fallback to Font Awesome check-circle -->
+        <li><i class="fa fa-check-circle"></i> WebRTC</li>
       </ul>
     </div>
 
     <div class="skills-category">
       <h3>Backend Technologies & Frameworks</h3>
       <ul>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>Django</li>
-        <li>Flask</li>
+        <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+        <li><i class="devicon-express-original colored"></i> Express.js</li>
+        <!-- Django has devicon-django-plain or devicon-django-plain-wordmark -->
+        <li><i class="devicon-django-plain colored"></i> Django</li>
+        <li><i class="devicon-flask-original colored"></i> Flask</li>
       </ul>
     </div>
   </section>
